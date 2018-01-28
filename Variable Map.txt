@@ -1,0 +1,77 @@
+## Variable Map: 
+# Name:                  Purpose:                                             Type:             Limitations
+
+# post                   image of frame for hangman                           image             none
+# hangman                image of the hangman                                 image             none
+# Qmark                  image of the hint button                             image             none
+# post                   image of frame for hangman                           image             none
+
+# letters                2D list to store letters, if they're used or not     2D list           0-25
+# lettercolour		 List for letter colors            		      list              none
+# letterclicked		 Checks if the letter is clicked                      boolean           T/F
+# letterlocation         List with location of each letter 		      list              none
+
+# keyboardBound          values of top left, bottom right positions of grid   2D list           none
+# keyboardvalues         keeps track of whether a letter have been used       list              boolean
+
+# tries                  keep track of number of tries/guesses                integer           0-6
+# squaresize             w and h of each key on keyboard                      integer           50
+# numrow                 number of rows in keyboard/ any grid                 int               >1
+# numcolumn              number of columns in keyboard/ any grid              int               >1
+
+#bg                      Holds the background picture                         image             none
+#bg1                     Major background image                               image             none
+#bg2                     Background for lose scene                            image             none
+#bg3                     Background with game rules                           image             none
+#post                    Holds the image of the post                          image             none
+#running                 Image of running person                              image             none
+#loseword                Image of word "you lose"                             image             none
+#winword                 Image of word "win"                                  image             none
+
+#xloc                    Holds the x location of running person               int               230 to 1000
+#x                       Holds the x location starting to copy                int               0 to 2000
+#yloc                    Holds the y location of winword                      int               -100 to 300
+#yloc2                   Holds the y location of loseword                     int               -100 to 300
+
+# showSquareX            The upper left x loc of each key                     int               >=200
+# showSquareY            The upper left y loc of each key                     int               >=600
+# squaresize             The side length of each key                          int               50
+# numrow                 Number of keyboard rows                              int               2
+# numcolumn              Number of keyboard columns                           int 		13
+           
+
+# mode                   Holds the mode of the game 			      string            none
+
+# alphabet		 Dictionary that has all the used letters             dictionary	none
+# tries			 How many lives did user loose			      int               6
+# gamecounter 		 Number of games user played			      int               0to5
+
+# leaderboard		 List that gets names and scores from leader board    list              none
+
+# hangmanParts		 List with hangman parts' locations                   list		none
+
+# hintclicked		 Checks if the hint is clicked			      boolean		T/F
+# hintcounter		 Count how many times user clicked hint		      int		0to3
+# hintline		 The text that will be printed on screen	      string            none
+
+# gamedictionary         keeps track of different words and hints                               none
+
+# word                   list to store the current word                       list              each letter as a string
+# wordnum 		 The random index of word in file		      int               0 to 2
+# wordlength		 Length of word					      int		>0
+# wordonscreen	         The lines for words on screen			      string		none
+# playerscore		 Player's score					      int		>=0
+# playername		 Player's name					      string		none
+
+# file			 File with words, hints and scores for each word      file              none
+# lb			 File for leader board (add things to it)	      file              none
+
+
+
+
+
+
+
+
+
+

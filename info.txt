@@ -1,0 +1,6 @@
+dog,chases cats,mans best friend,likes bones,3
+kitty,chases mice,finicky,likes milk,5
+horse,fun to ride,eats apples,likes hay,5
+watermelon,fruit,red inside,green on the outside,10
+chocolate,sweet snack,candy,brown or black,9
+computer,school subject,Mr.Kaye,the best subject in the world,8
