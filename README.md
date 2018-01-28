@@ -1,4 +1,7 @@
 # Hangman
+Wrote in Python
+Run in Processing
+
 Icons:
   Leader board, Play, Rules
   
