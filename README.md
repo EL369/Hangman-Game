@@ -1,8 +1,8 @@
 # Hangman
-Wrote in Python
-Run in Processing
+(Wrote in Python, run in Processing)
+Keywords: alphabet, animation, sorting, read from/ write to files
 
-Icons:
+Homepage Icons:
   Leader board, Play, Rules
   
 Leaderboard:
